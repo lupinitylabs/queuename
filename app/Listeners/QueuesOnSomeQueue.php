@@ -8,7 +8,7 @@ use Illuminate\Queue\InteractsWithQueue;
 
 class QueuesOnSomeQueue implements ShouldQueue
 {
-    use Dispatchable, InteractsWithQueue;
+    use InteractsWithQueue;
 
     /**
      * @var string
